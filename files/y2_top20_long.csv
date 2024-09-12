@@ -1,0 +1,81 @@
+"pfam","symbol","name","annotations","counts"
+"PF00023","Ank","Ankyrin repeat","genes",362
+"PF00023","Ank","Ankyrin repeat","transcripts",1248
+"PF00023","Ank","Ankyrin repeat","proteins",1273
+"PF00023","Ank","Ankyrin repeat","total",5489
+"PF12796","Ank_2","Ankyrin repeats (3 copies)","genes",360
+"PF12796","Ank_2","Ankyrin repeats (3 copies)","transcripts",1218
+"PF12796","Ank_2","Ankyrin repeats (3 copies)","proteins",1241
+"PF12796","Ank_2","Ankyrin repeats (3 copies)","total",3920
+"PF13637","Ank_4","Ankyrin repeats (many copies)","genes",336
+"PF13637","Ank_4","Ankyrin repeats (many copies)","transcripts",1124
+"PF13637","Ank_4","Ankyrin repeats (many copies)","proteins",1140
+"PF13637","Ank_4","Ankyrin repeats (many copies)","total",3836
+"PF00560","LRR_1","Leucine Rich Repeat","genes",217
+"PF00560","LRR_1","Leucine Rich Repeat","transcripts",641
+"PF00560","LRR_1","Leucine Rich Repeat","proteins",655
+"PF00560","LRR_1","Leucine Rich Repeat","total",3172
+"PF00400","WD40","WD domain, G-beta repeat","genes",260
+"PF00400","WD40","WD domain, G-beta repeat","transcripts",1041
+"PF00400","WD40","WD domain, G-beta repeat","proteins",1061
+"PF00400","WD40","WD domain, G-beta repeat","total",3117
+"PF07679","I-set","Immunoglobulin I-set domain","genes",357
+"PF07679","I-set","Immunoglobulin I-set domain","transcripts",1260
+"PF07679","I-set","Immunoglobulin I-set domain","proteins",1276
+"PF07679","I-set","Immunoglobulin I-set domain","total",3008
+"PF13927","Ig_3","Immunoglobulin domain","genes",342
+"PF13927","Ig_3","Immunoglobulin domain","transcripts",1238
+"PF13927","Ig_3","Immunoglobulin domain","proteins",1253
+"PF13927","Ig_3","Immunoglobulin domain","total",2919
+"PF12661","hEGF","Human growth factor-like EGF","genes",223
+"PF12661","hEGF","Human growth factor-like EGF","transcripts",730
+"PF12661","hEGF","Human growth factor-like EGF","proteins",732
+"PF12661","hEGF","Human growth factor-like EGF","total",2901
+"PF13606","Ank_3","Ankyrin repeat","genes",296
+"PF13606","Ank_3","Ankyrin repeat","transcripts",1034
+"PF13606","Ank_3","Ankyrin repeat","proteins",1051
+"PF13606","Ank_3","Ankyrin repeat","total",2857
+"PF00047","ig","Immunoglobulin domain","genes",319
+"PF00047","ig","Immunoglobulin domain","transcripts",1142
+"PF00047","ig","Immunoglobulin domain","proteins",1155
+"PF00047","ig","Immunoglobulin domain","total",2460
+"PF07645","EGF_CA","Calcium-binding EGF domain","genes",169
+"PF07645","EGF_CA","Calcium-binding EGF domain","transcripts",640
+"PF07645","EGF_CA","Calcium-binding EGF domain","proteins",643
+"PF07645","EGF_CA","Calcium-binding EGF domain","total",2435
+"PF13516","LRR_6","Leucine Rich repeat","genes",188
+"PF13516","LRR_6","Leucine Rich repeat","transcripts",562
+"PF13516","LRR_6","Leucine Rich repeat","proteins",572
+"PF13516","LRR_6","Leucine Rich repeat","total",2406
+"PF00008","EGF","EGF-like domain","genes",187
+"PF00008","EGF","EGF-like domain","transcripts",551
+"PF00008","EGF","EGF-like domain","proteins",554
+"PF00008","EGF","EGF-like domain","total",1970
+"PF13895","Ig_2","Immunoglobulin domain","genes",279
+"PF13895","Ig_2","Immunoglobulin domain","transcripts",1008
+"PF13895","Ig_2","Immunoglobulin domain","proteins",1019
+"PF13895","Ig_2","Immunoglobulin domain","total",1968
+"PF13857","Ank_5","Ankyrin repeats (many copies)","genes",244
+"PF13857","Ank_5","Ankyrin repeats (many copies)","transcripts",838
+"PF13857","Ank_5","Ankyrin repeats (many copies)","proteins",852
+"PF13857","Ank_5","Ankyrin repeats (many copies)","total",1745
+"PF00069","Pkinase","Protein kinase domain","genes",420
+"PF00069","Pkinase","Protein kinase domain","transcripts",1632
+"PF00069","Pkinase","Protein kinase domain","proteins",1664
+"PF00069","Pkinase","Protein kinase domain","total",1718
+"PF00096","zf-C2H2","Zinc finger, C2H2 type","genes",202
+"PF00096","zf-C2H2","Zinc finger, C2H2 type","transcripts",430
+"PF00096","zf-C2H2","Zinc finger, C2H2 type","proteins",438
+"PF00096","zf-C2H2","Zinc finger, C2H2 type","total",1681
+"PF07714","PK_Tyr_Ser-Thr","Protein tyrosine and serine/threonine kinase","genes",432
+"PF07714","PK_Tyr_Ser-Thr","Protein tyrosine and serine/threonine kinase","transcripts",1615
+"PF07714","PK_Tyr_Ser-Thr","Protein tyrosine and serine/threonine kinase","proteins",1638
+"PF07714","PK_Tyr_Ser-Thr","Protein tyrosine and serine/threonine kinase","total",1676
+"PF00041","fn3","Fibronectin type III domain","genes",229
+"PF00041","fn3","Fibronectin type III domain","transcripts",790
+"PF00041","fn3","Fibronectin type III domain","proteins",807
+"PF00041","fn3","Fibronectin type III domain","total",1628
+"PF13181","TPR_8","Tetratricopeptide repeat","genes",173
+"PF13181","TPR_8","Tetratricopeptide repeat","transcripts",631
+"PF13181","TPR_8","Tetratricopeptide repeat","proteins",643
+"PF13181","TPR_8","Tetratricopeptide repeat","total",1545

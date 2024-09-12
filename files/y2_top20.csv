@@ -1,0 +1,21 @@
+"pfam","symbol","name","genes","transcripts","proteins","total"
+"PF00023","Ank","Ankyrin repeat",362,1248,1273,5489
+"PF12796","Ank_2","Ankyrin repeats (3 copies)",360,1218,1241,3920
+"PF13637","Ank_4","Ankyrin repeats (many copies)",336,1124,1140,3836
+"PF00560","LRR_1","Leucine Rich Repeat",217,641,655,3172
+"PF00400","WD40","WD domain, G-beta repeat",260,1041,1061,3117
+"PF07679","I-set","Immunoglobulin I-set domain",357,1260,1276,3008
+"PF13927","Ig_3","Immunoglobulin domain",342,1238,1253,2919
+"PF12661","hEGF","Human growth factor-like EGF",223,730,732,2901
+"PF13606","Ank_3","Ankyrin repeat",296,1034,1051,2857
+"PF00047","ig","Immunoglobulin domain",319,1142,1155,2460
+"PF07645","EGF_CA","Calcium-binding EGF domain",169,640,643,2435
+"PF13516","LRR_6","Leucine Rich repeat",188,562,572,2406
+"PF00008","EGF","EGF-like domain",187,551,554,1970
+"PF13895","Ig_2","Immunoglobulin domain",279,1008,1019,1968
+"PF13857","Ank_5","Ankyrin repeats (many copies)",244,838,852,1745
+"PF00069","Pkinase","Protein kinase domain",420,1632,1664,1718
+"PF00096","zf-C2H2","Zinc finger, C2H2 type",202,430,438,1681
+"PF07714","PK_Tyr_Ser-Thr","Protein tyrosine and serine/threonine kinase",432,1615,1638,1676
+"PF00041","fn3","Fibronectin type III domain",229,790,807,1628
+"PF13181","TPR_8","Tetratricopeptide repeat",173,631,643,1545

@@ -1,0 +1,21 @@
+pfam	symbol	name	genes	transcripts	proteins	total
+PF07679	I-set	Immunoglobulin I-set domain	222	341	343	741
+PF13927	Ig_3	Immunoglobulin domain	204	323	325	685
+PF00023	Ank	Ankyrin repeat	185	223	223	588
+PF00047	ig	Immunoglobulin domain	196	307	309	574
+PF13895	Ig_2	Immunoglobulin domain	170	273	275	474
+PF07645	EGF_CA	Calcium-binding EGF domain	107	148	148	467
+PF12661	hEGF	Human growth factor-like EGF	127	170	170	459
+PF13637	Ank_4	Ankyrin repeats (many copies)	147	185	185	408
+PF00560	LRR_1	Leucine Rich Repeat	77	95	95	394
+PF12796	Ank_2	Ankyrin repeats (3 copies)	174	206	206	363
+PF00400	WD40	WD domain, G-beta repeat	158	169	170	363
+PF13606	Ank_3	Ankyrin repeat	145	172	172	355
+PF13516	LRR_6	Leucine Rich repeat	64	81	81	349
+PF00435	Spectrin	Spectrin repeat	46	83	83	346
+PF00069	Pkinase	Protein kinase domain	252	316	317	320
+PF07714	PK_Tyr_Ser-Thr	Protein tyrosine and serine/threonine kinase	239	301	302	305
+PF00041	fn3	Fibronectin type III domain	107	179	179	281
+PF00092	VWA	von Willebrand factor type A domain	175	207	207	270
+PF00008	EGF	EGF-like domain	101	131	131	264
+PF00090	TSP_1	Thrombospondin type 1 domain	95	114	114	235
