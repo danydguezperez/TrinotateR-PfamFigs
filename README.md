@@ -298,7 +298,7 @@ y2_top20_long_overlay %>%
        y = "Counts")
 ```
 
-[Fig: 20_Pfam_domains_overlaid_PE](https://github.com/danydguezperez/TrinotateR-PfamFigs/blob/main/files/20_Pfam_domains_stacked_bars_PE.png)
+[Fig: 20_Pfam_domains_overlaid_PE](https://github.com/danydguezperez/TrinotateR-PfamFigs/blob/main/files/20_Pfam_domains_overlaid_PE.png)
 
 
 ### Stacked Bar Plot
