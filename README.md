@@ -150,7 +150,7 @@ x2_top20_long_overlay %>%
        y = "Counts")
 ```
 
-[Fig: 20_Pfam_domains_overlaid_SE](https://github.com/danydguezperez/TrinotateR-PfamFigs/files/20_Pfam_domains_overlaid_SE.png)
+[Fig: 20_Pfam_domains_overlaid_SE](https://github.com/danydguezperez/TrinotateR-PfamFigs/blob/main/files/20_Pfam_domains_overlaid_SE.png)
 
 
 -  6.2 Stacked Bar Plot
@@ -182,7 +182,7 @@ x2_top20_long_stacked %>%
 ```
 
 <div align="center">
-<img src=https://github.com/danydguezperez/TrinotateR-PfamFigs/files/20_Pfam_domains_stacked_bars_SE.png width=80%>
+<img src=https://github.com/danydguezperez/TrinotateR-PfamFigs/blob/main/files/20_Pfam_domains_stacked_bars_SE.png width=80%>
 </div>
 
 
@@ -298,7 +298,7 @@ y2_top20_long_overlay %>%
        y = "Counts")
 ```
 
-[Fig: 20_Pfam_domains_overlaid_PE](https://github.com/danydguezperez/TrinotateR-PfamFigs/files/20_Pfam_domains_stacked_bars_PE.png)
+[Fig: 20_Pfam_domains_overlaid_PE](https://github.com/danydguezperez/TrinotateR-PfamFigs/blob/main/files/20_Pfam_domains_stacked_bars_PE.png)
 
 
 ### Stacked Bar Plot
@@ -327,7 +327,7 @@ y2_top20_long_stacked %>%
 ```
 
 <div align="center">
-<img src=https://github.com/danydguezperez/TrinotateR-PfamFigs/files/20_Pfam_domains_stacked_bars_PE.png width=80%>
+<img src=https://github.com/danydguezperez/TrinotateR-PfamFigs/blob/main/files/20_Pfam_domains_stacked_bars_PE.png width=80%>
 </div>
 
 
@@ -437,7 +437,7 @@ ggplot(x1_pfam_selected, aes(x = "", y = total_TPM, fill = factor(name, levels =
 ```
 
 <div align="center">
-<img src=https://github.com/danydguezperez/TrinotateR-PfamFigs/files/20_Pfam_domains_PieChartTPM_SE.png width=80%>
+<img src=https://github.com/danydguezperez/TrinotateR-PfamFigs/blob/main/files/20_Pfam_domains_PieChartTPM_SE.png width=80%>
 </div>
 
 ### Create pie chart including the expression of all Pfam domains by total TPM on Ss_SE
@@ -496,7 +496,7 @@ ggplot(y1_pfam_selected, aes(x = "", y = total_TPM, fill = factor(name, levels =
 ```
 
 <div align="center">
-<img src=https://github.com/danydguezperez/TrinotateR-PfamFigs/files/20_Pfam_domains_PieChartTPM_PE.png width=80%>
+<img src=https://github.com/danydguezperez/TrinotateR-PfamFigs/blob/main/files/20_Pfam_domains_PieChartTPM_PE.png width=80%>
 </div>
 
 **Example 2**: Pfam Expression for Paired-End RNAseq Data
@@ -588,7 +588,7 @@ ggplot(y1_pfam_selected, aes(x = "", y = total_TPM, fill = factor(name, levels =
         legend.position = "right")  # Show the legend with Pfam domain names
 ```
 
-[Fig: all_Pfam_domains_PieChartTPM_PE](https://github.com/danydguezperez/TrinotateR-PfamFigs/files/all_Pfam_domains_PieChartTPM_SE.png)
+[Fig: all_Pfam_domains_PieChartTPM_PE](https://github.com/danydguezperez/TrinotateR-PfamFigs/blob/main/files/all_Pfam_domains_PieChartTPM_SE.png)
 
 
 ### Create pie chart including the expression of all Pfam domains by total TPM on Ss_PE
@@ -635,5 +635,5 @@ ggplot(y1_pfam_selected, aes(x = "", y = total_TPM, fill = factor(name, levels =
         panel.grid = element_blank(),
         legend.position = "right")  # Show the legend with names
 ```
-[Fig: all_Pfam_domains_PieChartTPM_PE](https://github.com/danydguezperez/TrinotateR-PfamFigs/files/all_Pfam_domains_PieChartTPM_PE.png)
+[Fig: all_Pfam_domains_PieChartTPM_PE](https://github.com/danydguezperez/TrinotateR-PfamFigs/blob/main/files/all_Pfam_domains_PieChartTPM_PE.png)
 
