@@ -398,8 +398,8 @@ head(x1_pfam_expression_sorted)
 write.table(x1_pfam_expression_sorted, file = "x1_pfam_expression_sorted.txt", sep = "\t", row.names = FALSE, quote = FALSE)
 ```
 
-Step 4: Extract Top 20 Pfam Domains
-We will now extract the top 20 Pfam domains based on total TPM for visualization.
+Step 4: Extract Top (e.g. 20) Pfam Domains based on total TPM
+- We will now extract the top 20 Pfam domains based on total TPM for visualization.
 
 ```
 # Select the top 20 Pfam domains
@@ -413,6 +413,27 @@ x1_pfam_selected <- x1_pfam_expression_sorted %>%
 # Inspect the top 20 Pfam domains
 head(x1_pfam_selected)
 ```
+Step 4.1: 20 Pfam Domains based on total TPM for visualization as Bar Plot
+- Create a sorted bar plot for the top 20 Pfam domains
+
+```
+ggplot(x1_pfam_selected_20, aes(x = reorder(name, total_TPM), y = total_TPM, fill = name)) +
+  geom_bar(stat = "identity", color = "black", show.legend = FALSE) +  # Bar plot with borders and no legend
+  coord_flip() +  # Horizontal bar plot
+  theme_minimal() +  # Minimal theme for cleaner appearance
+  labs(title = "Top 20 Pfam Domains by Total TPM",
+       x = "Pfam Domains",
+       y = "Total TPM") +
+  theme(axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
+        axis.title = element_text(size = 14),
+        plot.title = element_text(size = 16, hjust = 0.5))
+```
+
+<div align="center">
+<img src=https://github.com/danydguezperez/TrinotateR-PfamFigs/blob/main/files/Pfam_domains_BarPlotTPM_SE.png width=80%>
+</div>
+
 
 Step 5: Create Pie Chart for Top 20 Pfam Domains
 Finally, visualize the top 20 Pfam domains by total TPM using a pie chart.
@@ -439,6 +460,7 @@ ggplot(x1_pfam_selected, aes(x = "", y = total_TPM, fill = factor(name, levels =
 <div align="center">
 <img src=https://github.com/danydguezperez/TrinotateR-PfamFigs/blob/main/files/20_Pfam_domains_PieChartTPM_SE.png width=80%>
 </div>
+
 
 ### Create pie chart including the expression of all Pfam domains by total TPM on Ss_SE
 
@@ -555,8 +577,8 @@ head(y1_pfam_expression_sorted)
 write.table(y1_pfam_expression_sorted, file = "y1_pfam_expression_sorted.txt", sep = "\t", row.names = FALSE, quote = FALSE)
 ```
 
-Step 4: Extract Top 20 Pfam Domains
-Now, extract the top 20 Pfam domains based on total TPM for visualization.
+Step 4: Extract Top (e.g. 20) Pfam Domains based on total TPM
+- We extract the top 20 Pfam domains based on total TPM for visualization.
 
 ```
 # Select the top 20 Pfam domains
@@ -570,7 +592,26 @@ y1_pfam_selected <- y1_pfam_expression_sorted %>%
 # Inspect the top 20 Pfam domains
 head(y1_pfam_selected)
 ```
+Step 4.1: 20 Pfam Domains based on total TPM for visualization as Bar Plot
+- Create a sorted bar plot for the top 20 Pfam domains
 
+```
+ggplot(y1_pfam_selected_20, aes(x = reorder(name, total_TPM), y = total_TPM, fill = name)) +
+  geom_bar(stat = "identity", color = "black", show.legend = FALSE) +  # Bar plot with borders and no legend
+  coord_flip() +  # Horizontal bar plot
+  theme_minimal() +  # Minimal theme for cleaner appearance
+  labs(title = "Top 20 Pfam Domains by Total TPM",
+       x = "Pfam Domains",
+       y = "Total TPM") +
+  theme(axis.text.x = element_text(size = 12),
+        axis.text.y = element_text(size = 12),
+        axis.title = element_text(size = 14),
+        plot.title = element_text(size = 16, hjust = 0.5))
+```
+
+[Fig: Pfam_domains_BarPlotTPM_PE](https://github.com/danydguezperez/TrinotateR-PfamFigs/blob/main/files/20_Pfam_domains_overlaid_SE.png)
+
+        
 Step 5: Create Pie Chart for Top 20 Pfam Domains
 Finally, visualize the top 20 Pfam domains by total TPM using a pie chart.
 
