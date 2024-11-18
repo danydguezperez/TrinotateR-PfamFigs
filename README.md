@@ -609,7 +609,7 @@ ggplot(y1_pfam_selected_20, aes(x = reorder(name, total_TPM), y = total_TPM, fil
         plot.title = element_text(size = 16, hjust = 0.5))
 ```
 
-[Fig: Pfam_domains_BarPlotTPM_PE](https://github.com/danydguezperez/TrinotateR-PfamFigs/blob/main/files/20_Pfam_domains_overlaid_SE.png)
+[Fig: Pfam_domains_BarPlotTPM_PE](https://github.com/danydguezperez/TrinotateR-PfamFigs/blob/main/files/Pfam_domains_BarPlotTPM_PE.png)
 
         
 Step 5: Create Pie Chart for Top 20 Pfam Domains
